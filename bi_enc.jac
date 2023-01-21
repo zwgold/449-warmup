@@ -10,7 +10,7 @@ node bi_enc {
                 "num_train_epochs": visitor.num_train_epochs
             }
         );
-        if (visitor.model_name): bi_enc.save_model(model_path=visitor.model_name);
+        //if (visitor.model_name): bi_enc.save_model(model_path=visitor.model_name);
     }
 
     can infer {
